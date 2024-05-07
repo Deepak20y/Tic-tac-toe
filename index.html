@@ -2,10 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--
+    The meta tag provided is used in HTML to specify the version of
+     Internet Explorer that should be used to render a web page.
+      In this case, it's indicating that the page should be rendered 
+      using the latest version of Internet Explorer, which is specified by "edge".
+       This ensures compatibility with the latest rendering engine.
+-->
+    <title>Tic-tac-Toe</title>
+    <link rel="stylesheet" href="styleee.css">
 </head>
 <body>
-    
+    <section>
+        <div class="game-dynamics">
+        <h1 class="game-title">Tic-tac-toe</h1>
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game-status"></h2>
+        <button class="game-restart">Game Restart</button>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
